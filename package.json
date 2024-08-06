@@ -8,8 +8,8 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "jest": {
-  "transform": {}
-},
+    "transform": {}
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RoseBud31/webcrawler.git"
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/RoseBud31/webcrawler#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1"
   }
 }
